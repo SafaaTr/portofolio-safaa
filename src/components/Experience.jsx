@@ -11,14 +11,14 @@ function Experience() {
         {
             paragraph:"Technical Skills:",
             content:`Languages: JavaScript (ES6+), HTML5, CSS3.
-            ​Frameworks & Libraries: React, React DOM, Tailwind CSS, Bootstrap.
-            ​Integration: REST APIs, JSON, Node.js (Runtime).
+            ​Frameworks & Libraries: React, React DOM, Tailwind CSS, Bootstrap , Material Ui.
+              ​Integration: REST APIs, JSON, Node.js (Runtime).
             ​Tools: Figma, Git, GitHub.`
         },
         {
             paragraph:"Technical Experience (1)",
             content:`
-            .​Front-end Development :      ​Building React.js web applications.
+            .​Front-end Development :    ​Building React.js web applications.
             ​Converting Figma designs to pixel-perfect code.
             ​Responsive UI using Tailwind & Bootstrap.`
         },

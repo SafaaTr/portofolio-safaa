@@ -1,5 +1,6 @@
 import React from 'react'
 import { FaArrowRight } from "react-icons/fa";
+import imgback from '/images/Bottom.png'
 function CreativeWorksSection() {
     const contentCreative =(
         {
@@ -10,7 +11,7 @@ function CreativeWorksSection() {
         }
     )
   return (
-    <section className='bg-[url(/images/Bottom.png)] md:mx-70 mx-20 md:bg-cover flex  h-375 items-center md:w-1182  '>
+    <section style={{backgroundImage:`url(${imgback})`}} className=' md:mx-70 mx-20 md:bg-cover flex  h-375 items-center md:w-1182  '>
         <div className='md:mx-136 mx-70   md:flex justify-between items-center'>
             <div className='md:w-589'>
             <h1 className='text-white md:text-5xl text-3xl font-semibold'>{contentCreative.paragraph}</h1>
