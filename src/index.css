@@ -1,0 +1,51 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --spacing: 1px;
+  }
+}
+/* @theme{
+  --spacing:1px
+} */
+
+*{
+  font-family: "Poppins", sans-serif;
+}
+body{
+   background-color: rgb(255, 251, 251);
+   color: black;
+}
+html.dark body {
+  background-color: #111827;
+  color: white;
+}
+.text-shadow {
+  text-shadow: 0px 0px 15px rgba(0,1,6,0.3);
+}
+
+
+/* .dark body {
+  background-color: #111827; 
+  color: white;
+  
+} */
+/* input[type="range"] {
+  width: 100%;
+}
+input[type="range"]::-webkit-slider-runnable-track {
+  background: #0C96E2;
+  height: 6px;
+  border-radius: 10px;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border: 3px solid #0C96E2;
+  border-radius: 50%;
+  cursor: pointer;
+  margin-top: -7px;
+} */
