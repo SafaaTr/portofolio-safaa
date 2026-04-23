@@ -18,7 +18,7 @@ return (
         <h1 className='font-semibold text-xl'>{linksNav.name}</h1>
         <div className='md:flex hidden'> <LinksNav active={active} setActive={setActive} /></div>
         
-        <div className='flex'>
+        <div className='flex gap-3'>
      
         <DarkMode DarkMode={DarkMode}/>
         <MenuNav/>

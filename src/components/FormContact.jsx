@@ -34,7 +34,7 @@ function FormContact() {
         e.preventDefault()
     }
   return (
-    <form onSubmit={handleSubmit} className='grid grid-cols-2 gap-26 md:w-779'>
+    <form onSubmit={handleSubmit} className='flex flex-col gap-10 md:grid grid-cols-2 md:gap-26 md:w-779'>
         
             {contentInput.map((item ,index)=>(
                 <div key={index}  className={
@@ -46,7 +46,7 @@ function FormContact() {
                         <textarea
                          name={item.name}
                         placeholder={item.placeholder} 
-                        className='border w-full h-190 p-15  border-[#BEC0BF] rounded-lg '></textarea>
+                        className='border w-full h-190 p-15  placeholder:text-[#8b8b8b]   border-[#BEC0BF] rounded-lg '></textarea>
                     ): item.type==="submit" ?(
                         <button
                         type={item.type}
@@ -59,7 +59,7 @@ function FormContact() {
                         type={item.type}
                         name={item.name}
                         placeholder={item.placeholder}
-                        className='border border-[#BEC0BF] h-56 w-full outline-0 rounded-lg p-15 '
+                        className='md:inline block placeholder:text-[#8b8b8b]  border border-[#BEC0BF] p-5  h-56 w-full outline-0 rounded-lg md:p-15 '
                         />
                     )}
                      
