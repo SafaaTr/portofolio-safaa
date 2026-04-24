@@ -23,7 +23,7 @@ function Card({slider =false}) {
     const itemsPrev=window.innerWidth >=1024 ? 3 :1;
     const contentCards=[
 
-        { img: trippy, paragraph: "Educational Platform", content: "React.js-javascript-Tailwind", icon: iconDemo, url: "https://trippy-app.netlify.app/" },
+        { img: trippy, paragraph: "Educational Platform", content: "React.js-javascript-Tailwind", icon: iconDemo, url: "https://trippy.sandysmith4490.workers.dev/" },
         { img: dashboard, paragraph: "Educational Platform", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://dashboard-api-vica.netlify.app" },
         { img: yourname, paragraph: "Educational Platform", content: "Html-Css3-javscript", icon: iconDemo, url: "https://yourname-popup.netlify.app/" },
         { img: travel, paragraph: "Educational Platform", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/Travel-Css/" },

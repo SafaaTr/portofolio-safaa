@@ -32,7 +32,7 @@ function ProjectsPage() {
                 Framework:"Taillwind",
                 Library:"React.js",
                 icon:'/images/icondemo.png' , // مالقيتا ايقونة
-                url: "https://trippy-app.netlify.app/",
+                url: "https://trippy.sandysmith4490.workers.dev/",
                 contentButton:"Github Repo",
                 repo:"https://github.com/SafaaTr/Trippy"
             },
