@@ -14,6 +14,7 @@ import mid from '/images/maid.png'
 import toList from '/images/to.png'
 import doob from '/images/doob.png'
 import skiing from '/images/skiing.png'
+import Shop from '/images/shop.png'
 
 import { MdArrowBackIosNew } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
@@ -22,19 +23,19 @@ function Card({slider =false}) {
     const [index ,setIndex] =useState(0)
     const itemsPrev=window.innerWidth >=1024 ? 3 :1;
     const contentCards=[
-
-        { img: trippy, paragraph: "Educational Platform", content: "React.js-javascript-Tailwind", icon: iconDemo, url: "https://trippy.sandysmith4490.workers.dev/" },
-        { img: dashboard, paragraph: "Educational Platform", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://dashboard-api-vica.netlify.app" },
-        { img: yourname, paragraph: "Educational Platform", content: "Html-Css3-javscript", icon: iconDemo, url: "https://yourname-popup.netlify.app/" },
+        { img: Shop , paragraph: "SHOP.CO", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://online-store-mgs.pages.dev/" },
+        { img: trippy, paragraph: " Trippy", content: "React.js-javascript-Tailwind", icon: iconDemo, url: "https://trippy-3dc.pages.dev/" },
+        { img: dashboard, paragraph: "Dashboard", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://dashboard-api-vica.netlify.app" },
+        { img: yourname, paragraph: "Your Name", content: "Html-Css3-javscript", icon: iconDemo, url: "https://yourname-popup.netlify.app/" },
         { img: travel, paragraph: "Educational Platform", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/Travel-Css/" },
-        { img: mid, paragraph: "Educational Platform", content: "Html-Css3-Pootstrap", icon: iconDemo, url: "https://safaatr.github.io/one-bootstrap-project/" },
-        { img: managepost, paragraph: "Educational Platform", content: "Html-Css3-javscript-api", icon: iconDemo, url: "https://safaatr.github.io/Manage-Posts-api-js/" },
-        { img: flora, paragraph: "Educational Platform", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/flora-css/" },
+        { img: mid, paragraph: "Travel", content: "Html-Css3-Pootstrap", icon: iconDemo, url: "https://safaatr.github.io/one-bootstrap-project/" },
+        { img: managepost, paragraph: " Manage Post", content: "Html-Css3-javscript-api", icon: iconDemo, url: "https://safaatr.github.io/Manage-Posts-api-js/" },
+        { img: flora, paragraph: "Flora", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/flora-css/" },
         { img: crud, paragraph: "Educational Platform", content: "Html-Css3-javscript", icon: iconDemo, url: "safaatr.github.io/Product-Cart-CRUD/" },
-        { img: digital, paragraph: "Educational Platform", content: "Html-Pootstrap", icon: iconDemo, url: "https://safaatr.github.io/one-bootstrap-project/" },
-        { img: toList, paragraph: "Educational Platform", content: "Html-Css3-javascript", icon: iconDemo, url: "https://safaatr.github.io/To-Do-List-/" },
-        { img: doob, paragraph: "Educational Platform", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/First-front-end-project/" },
-        { img: skiing, paragraph: "Educational Platform", content: "Html-Css3", icon: iconDemo, url: "https://k2skiing.netlify.app/" },
+        { img: digital, paragraph: "Digital", content: "Html-Pootstrap", icon: iconDemo, url: "https://safaatr.github.io/one-bootstrap-project/" },
+        { img: toList, paragraph: "ToList", content: "Html-Css3-javascript", icon: iconDemo, url: "https://safaatr.github.io/To-Do-List-/" },
+        { img: doob, paragraph: "Doob", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/First-front-end-project/" },
+        { img: skiing, paragraph: "K2skiing", content: "Html-Css3", icon: iconDemo, url: "https://k2skiing.netlify.app/" },
     ]
     const next=()=>{
         if (index < contentCards.length -itemsPrev ) {///وقف عند آخر مجموعة فيها 3 كروت
