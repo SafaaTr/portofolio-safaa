@@ -35,12 +35,12 @@ function Experience() {
   return (
     <div>
         <div className='md:grid grid-cols-2 gap-20 md:h-287 mt-91'>
-            <div className='flex md:w-498 w-full '>
-                <img src={line} alt=""  className='h-367'/> 
-                <div className=' md:pl-47 pl-10 '>
+            <div className='flex md:w-498 w-full items-center '>
+                
+                <div className=' md:pl-47 pl-10'>
                     {contentExperience.map((item ,index)=>( 
                         index < 2 &&(
-                            <div key={index} className='mb-46' >
+                            <div key={index} className='mb-46  rounded-2xl bg-[#f5f5f5] p-16 border-l-4 border-l-indigo-500 ' >
                                 <h2 className='font-medium  text-2xl md:text-[26px] mb-14'>{item.paragraph}</h2>
                                 <p className='  tracking-normal md:w-400 md:text-[18px]  leading-loose  '>{item.content}</p>
                             </div>
@@ -49,12 +49,12 @@ function Experience() {
                   ))}
                 </div> 
             </div>
-            <div className='flex md:w-498 w-full md:pl-47'>
-                <img src={line} alt="" className='h-367'/> 
+            <div className='flex md:w-498 w-full md:pl-47 items-center'>
+            
                 <div className='md:pl-47 pl-10 '>
                     {contentExperience.map((item ,index)=>( 
                         index >= 2 &&(
-                            <div key={index} className='mb-46 ' >
+                            <div key={index} className='mb-46 rounded-2xl bg-[#f5f5f5] p-16 border-l-4 border-l-indigo-500  ' >
                                 <h2 className='font-medium  text-2xl md:text-[26px] mb-14'>{item.paragraph}</h2>
                                 <p className='  tracking-normal md:w-400 md:text-[18px]  leading-loose  '>{item.content}</p>
                              

@@ -31,7 +31,7 @@ function EducationSection() {
   return (
     <section id='education' className=' relative md:h-700 h-full '>
         <img src={designRight} alt="" className=' hidden md:inline absolute right-0 top-0' />
-        <img src={designLeft} alt="" className=' hidden md:inline absolute left-0 bottom-0 ' />
+        <img src={designLeft} alt="" className=' hidden md:inline absolute left-0 -bottom-40 ' />
         
         <div className='md:mx-70 mx-20 mt-20'>
                <p className='text-center text-[#0c96e2] font-medium '>Education and Experience</p>

@@ -14,7 +14,7 @@ function Footer() {
    <footer className='border-t border-[#BEC0BF] mt-40 md:mt-94 md:mx-70 mx-20'>
     <div className='md:flex justify-between items-center md:mb-40 mb-20 md:mt-39 mt-10 '>
         <p>@ 2026. All Rights Reserved</p>
-        <p>Develpoment by Safaa</p>
+        <p className='my-10 md:my-0'>Develpoment by Safaa</p>
         <div className='flex gap-16'>
             <a href="https://www.facebook.com/" className='bg-[#0C96E2] rounded-[50%] w-25 h-25 flex justify-center items-center'><FaFacebookF size={18} color='white'/> </a>
             <a href="https://x.com/?lang=ar" className='bg-[#0C96E2] rounded-[50%] w-25 h-25 flex justify-center items-center'> <FaTwitter size={18} color='white' /></a>
