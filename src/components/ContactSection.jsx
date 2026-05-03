@@ -6,15 +6,15 @@ import FormContact from './FormContact'
 function ContactSection() {
   const contentContact=[
         {   icon:<FaPhoneAlt size={34} color='white'/>,
-            parargraph:"Call me",
+            parargraph:"Phone me",
             content:"0984786399"
         },
         {   icon:<HiOutlineMail size={34} color='white'/>,
-            parargraph:"Call me",
+            parargraph:"Email me",
             content:"safaatr782@gmail.com"
         },
         {   icon:<SlLocationPin size={34} color='white'/>,
-            parargraph:"Call me",
+            parargraph:"Find me at",
             content:"Damascus,syria"
         }
     ]

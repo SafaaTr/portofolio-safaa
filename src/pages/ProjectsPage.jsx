@@ -61,7 +61,7 @@ function ProjectsPage() {
       Framework:"Tailwind",
       Library:"React.js",
       icon:'/images/icondemo.png' , 
-      url: "https://dashboard-api-vica.netlify.app",
+      url: "https://dashboard-api-react.pages.dev/",
       contentButton:"Github Repo",
       repo:"https://github.com/SafaaTr/dashboard-api-react"
     },
@@ -73,7 +73,7 @@ function ProjectsPage() {
       Basic:"  Html5 , Css , Javascript", 
       Library:"React.js",
       icon:'/images/icondemo.png' , 
-      url: "https://safaatr.github.io/mid-project-safaa-altarshan/",
+      url: "https://yourname-auth-popup-react.pages.dev/",
       contentButton:"Github Repo",
       repo:"https://github.com/SafaaTr/mid-project-safaa-altarshan"
     },
@@ -92,7 +92,7 @@ function ProjectsPage() {
     },
     { 
         img: mid,
-        paragraph: "Educational Platform",
+        paragraph: "Edupress",
         date:"29-12-2025",
         content: " A sophisticated, multi-page web platform designed to demonstrate advanced front-end development techniques. The project focuses on creating a seamless user experience (UX) across all devices by combining the structural power of HTML5, the styling flexibility of Custom CSS3, and the responsive efficiency of the Bootstrap 5 framework.", 
         Basic: " Html5 , Css ",
@@ -138,7 +138,7 @@ function ProjectsPage() {
         // Framework:"Bootstrap",
         // Library:"React.js",
         icon:'/images/icondemo.png' , 
-        url: "safaatr.github.io/Product-Cart-CRUD/",
+        url: "https://safaatr.github.io/Product-Cart-CRUD/",
         contentButton:"Github Repo",
         repo:"https://github.com/SafaaTr/Product-Cart-CRUD"
     },
@@ -191,7 +191,7 @@ function ProjectsPage() {
         // Framework:"Bootstrap",
         // Library:"Bootstrap",
         icon:'/images/icondemo.png' , 
-        url: "https://k2skiing.netlify.app/",
+        url: "https://k2skiing-css.pages.dev/",
         contentButton:"Github Repo",
         repo:"https://github.com/SafaaTr/K2Skiing-css"
     },

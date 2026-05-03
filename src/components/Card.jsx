@@ -25,17 +25,17 @@ function Card({slider =false}) {
     const contentCards=[
         { img: Shop , paragraph: "SHOP.CO", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://online-store-mgs.pages.dev/" },
         { img: trippy, paragraph: " Trippy", content: "React.js-javascript-Tailwind", icon: iconDemo, url: "https://trippy-3dc.pages.dev/" },
-        { img: dashboard, paragraph: "Dashboard", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://dashboard-api-vica.netlify.app" },
-        { img: yourname, paragraph: "Your Name", content: "Html-Css3-javscript", icon: iconDemo, url: "https://yourname-popup.netlify.app/" },
-        { img: travel, paragraph: "Educational Platform", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/Travel-Css/" },
-        { img: mid, paragraph: "Travel", content: "Html-Css3-Pootstrap", icon: iconDemo, url: "https://safaatr.github.io/one-bootstrap-project/" },
+        { img: dashboard, paragraph: "Dashboard", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://dashboard-api-react.pages.dev/" },
+        { img: yourname, paragraph: "Your Name", content: "Html-Css3-javscript", icon: iconDemo, url: "https://yourname-auth-popup-react.pages.dev/" },
+        { img: travel, paragraph: "Travel", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/Travel-Css/" },
+        { img: mid, paragraph: "Edupress", content: "Html-Css3-Pootstrap", icon: iconDemo, url: "https://safaatr.github.io/mid-project-safaa-altarshan/" },
         { img: managepost, paragraph: " Manage Post", content: "Html-Css3-javscript-api", icon: iconDemo, url: "https://safaatr.github.io/Manage-Posts-api-js/" },
         { img: flora, paragraph: "Flora", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/flora-css/" },
-        { img: crud, paragraph: "Educational Platform", content: "Html-Css3-javscript", icon: iconDemo, url: "safaatr.github.io/Product-Cart-CRUD/" },
+        { img: crud, paragraph: "Shop basket", content: "Html-Css3-javscript", icon: iconDemo, url: "https://safaatr.github.io/Product-Cart-CRUD/" },
         { img: digital, paragraph: "Digital", content: "Html-Pootstrap", icon: iconDemo, url: "https://safaatr.github.io/one-bootstrap-project/" },
         { img: toList, paragraph: "ToList", content: "Html-Css3-javascript", icon: iconDemo, url: "https://safaatr.github.io/To-Do-List-/" },
         { img: doob, paragraph: "Doob", content: "Html-Css3", icon: iconDemo, url: "https://safaatr.github.io/First-front-end-project/" },
-        { img: skiing, paragraph: "K2skiing", content: "Html-Css3", icon: iconDemo, url: "https://k2skiing.netlify.app/" },
+        { img: skiing, paragraph: "K2skiing", content: "Html-Css3", icon: iconDemo, url: "https://k2skiing-css.pages.dev/" },
     ]
     const next=()=>{
         if (index < contentCards.length -itemsPrev ) {///وقف عند آخر مجموعة فيها 3 كروت
