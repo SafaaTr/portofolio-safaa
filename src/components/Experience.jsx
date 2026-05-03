@@ -50,7 +50,7 @@ function Experience() {
                 </div> 
             </div>
             <div className='flex md:w-498 w-full md:pl-47'>
-                <img src={line} alt="" className='h-285'/> 
+                <img src={line} alt="" className='h-367'/> 
                 <div className='md:pl-47 pl-10 '>
                     {contentExperience.map((item ,index)=>( 
                         index >= 2 &&(
