@@ -19,12 +19,25 @@ import toList from '/images/to.png'
 import doob from '/images/doob.png'
 import skiing from '/images/skiing.png'
 import Shop from '/images/shop.png'
+import ocean from '/images/ocean.png'
 
 
 
 function ProjectsPage() {
   const contentCards=[
-
+    { 
+      img: ocean,
+      paragraph: "Ocean",
+      date:"2-5-2026",
+      content: "A modern multi-page e-commerce application built with React and Tailwind CSS that dynamically fetches product data from a REST API, featuring a full shopping cart system, professional skeleton loading via animate-pulse, and real-time state synchronization using dispatch events and instant notifications.", 
+      Basic:"HTML5 , Typescript ",
+      Framework:"Taillwind-Css ,Next.js",
+      Library:"React.js",
+      icon:'/images/icondemo.png' , // مالقيتا ايقونة
+      url: "https://ocean-next-js.pages.dev/",
+      contentButton:"Github Repo",
+      repo:"https://github.com/SafaaTr/online-Store"
+    },
     { 
       img: Shop,
       paragraph: "SHOP.CO",

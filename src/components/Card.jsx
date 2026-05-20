@@ -15,7 +15,7 @@ import toList from '/images/to.png'
 import doob from '/images/doob.png'
 import skiing from '/images/skiing.png'
 import Shop from '/images/shop.png'
-
+import ocean from '/images/ocean.png'
 import { MdArrowBackIosNew } from "react-icons/md";
 import { MdArrowForwardIos } from "react-icons/md";
 
@@ -23,6 +23,7 @@ function Card({slider =false}) {
     const [index ,setIndex] =useState(0)
     const itemsPrev=window.innerWidth >=1024 ? 3 :1;
     const contentCards=[
+        { img: ocean , paragraph: "Ocean", content: "React.js-Next.js-Typescript-Tailwind", icon: iconDemo, url: "https://ocean-next-js.pages.dev/" },
         { img: Shop , paragraph: "SHOP.CO", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://online-store-mgs.pages.dev/" },
         { img: trippy, paragraph: " Trippy", content: "React.js-javascript-Tailwind", icon: iconDemo, url: "https://trippy-3dc.pages.dev/" },
         { img: dashboard, paragraph: "Dashboard", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://dashboard-api-react.pages.dev/" },
