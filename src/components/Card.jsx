@@ -21,7 +21,7 @@ import { MdArrowForwardIos } from "react-icons/md";
 
 function Card({slider =false}) {
     const [index ,setIndex] =useState(0)
-    const itemsPrev=window.innerWidth >=1024 ? 3 :1;
+    const itemsPrev=window.innerWidth >=1024 ? 3 :1; //كم كرت يظهر 
     const contentCards=[
         { img: ocean , paragraph: "Ocean", content: "React.js-Next.js-Typescript-Tailwind", icon: iconDemo, url: "https://ocean-next-js.pages.dev/" },
         { img: Shop , paragraph: "SHOP.CO", content: "React.js-javascript-Tailwind-api", icon: iconDemo, url: "https://online-store-mgs.pages.dev/" },
@@ -96,7 +96,7 @@ function Card({slider =false}) {
                     <button onClick={next} className='flex justify-center items-center rounded-[50%] w-35 h-35  bg-[#0c96e2]'> <MdArrowForwardIos color='white' size={12}/></button>
                 </div>
             </div>
-           <div className='overflow-hidden md:mx-70 mx-20'>
+        <div className='overflow-hidden md:mx-70 mx-20'>
 
             <div className='flex h-300   transition-transform  duration-500' style={{transform :`translateX(-${index*(100/itemsPrev)}%)`}}>
                 {sliderCards.map((item ,i)=>(

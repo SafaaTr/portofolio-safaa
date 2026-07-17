@@ -6,26 +6,26 @@ import Experience from './Experience'
 
 
 function EducationSection() {
-  const [showButton ,setShowButton]=useState(false)
-  useEffect(()=>{
-      const handleScroll=()=>{
-          const education = document.getElementById("education");
-          if (!education) return
+  // const [showButton ,setShowButton]=useState(false)
+  // useEffect(()=>{
+  //     const handleScroll=()=>{
+  //         const education = document.getElementById("education");
+  //         if (!education) return
           
-          const top = education.offsetTop;
-          const height = education.offsetHeight
+  //         const top = education.offsetTop;
+  //         const height = education.offsetHeight
   
-          if (window.scrollY >= top && window.scrollY < top +height) {
-              setShowButton(true)
+  //         if (window.scrollY >= top && window.scrollY < top +height) {
+  //             setShowButton(true)
               
-          }else{
-              setShowButton(false)
-          }
-      }
+  //         }else{
+  //             setShowButton(false)
+  //         }
+  //     }
      
-      window.addEventListener("scroll", handleScroll)
-      return ()=> window.removeEventListener("scroll", handleScroll)
-  },[])
+  //     window.addEventListener("scroll", handleScroll)
+  //     return ()=> window.removeEventListener("scroll", handleScroll)
+  // },[])
        
     
   return (
@@ -40,17 +40,17 @@ function EducationSection() {
                 
         </div>
        {
-          showButton &&(
-            <div className=' relative md:mx-70 hidden md:block'>
-               <button className='w-50 h-50 bg-[#0C96E2] rounded-2xl   absolute top-70 right-0 flex justify-center items-center' onClick={()=>window.scrollTo({top :0 ,behavior :"smooth"})}>
-                  <a href="" className=' flex justify-center items-center'>
-                   {/* <img src={arrow} alt="" className='w-20 h-20 ' /> */}
-                   <IoMdArrowUp size={28} color='white'/>
-                  </a>
-               </button>
-            </div>
+          // showButton &&(
+          //   <div className=' relative md:mx-70 hidden md:block'>
+          //      <button className='w-50 h-50 bg-[#0C96E2] rounded-2xl   absolute top-70 right-0 flex justify-center items-center' onClick={()=>window.scrollTo({top :0 ,behavior :"smooth"})}>
+          //         <a href="" className=' flex justify-center items-center'>
+          //          {/* <img src={arrow} alt="" className='w-20 h-20 ' /> */}
+          //          <IoMdArrowUp size={28} color='white'/>
+          //         </a>
+          //      </button>
+          //   </div>
          
-          )
+          // )
        }
     
     </section>

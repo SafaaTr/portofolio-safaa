@@ -4,9 +4,9 @@ import Hero from './Hero'
 
 function Header() {
   return (
-    <div className='  h-full '>
+    <header id="header" className='   '  >
        <Hero/>
-    </div>
+    </header>
   )
 }
 

@@ -210,8 +210,8 @@ function ProjectsPage() {
     },
   ]
 
-  const { id } = useParams();
-  const activeId = id !== undefined ? id : 0;
+  const { id } = useParams(); // جلب معرف المشروع 
+  const activeId = id !== undefined ? id : 0; // تحقق ان الid  موجود 
   const project = contentCards[activeId];
   return (
     <div>

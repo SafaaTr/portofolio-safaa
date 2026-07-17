@@ -4,13 +4,15 @@ function ButtonSecroll() {
     const [showButton ,setShowButton]=useState(false)
     useEffect(()=>{
         const handleScroll=()=>{
-            const education = document.getElementById("education");
-            if (!education) return
+            // const education = document.getElementById("education");
+            const header =document.getElementById("header")
+            const footer =document.getElementById("footer")
+            if (!header || !footer) return
             
-            const top = education.offsetTop;
-            const height = education.offsetHeight
-    
-            if (window.scrollY >= top && window.scrollY < top +height) {
+            const headerBottom = header.offsetTop + header.offsetHeight;    // 1. حساب النقطة التي ينتهي عندها الهيدر (بداية ظهور الزر)
+            const footerTop = footer.offsetTop // 2. حساب النقطة التي يبدأ عندها الفوتر (نقطة اختفاء الزر)
+              // 3. التحقق إذا كان المستخدم قد تجاوز الهيدر ولم يصل بعد إلى الفوتر
+            if (window.scrollY >= headerBottom && window.scrollY < footerTop -window.innerHeight) {
                 setShowButton(true)
                 
             }else{
@@ -24,15 +26,17 @@ function ButtonSecroll() {
 
   return (
     <>
+    
     {
-        showButton &&(
-            <button className='w-50 h-50 bg-[#0C96E2] rounded-2xl  bottom-5 right-5 relative ' onClick={()=>window.scrollTo({top :0 ,behavior :"smooth"})}>
-            <a href="" className=' relative'>
-                <img src="/images/Arrow_Up_MD.png" alt=""className='absolute top-1/2 left-1/2  -translate-x-1/2  -translate-y-1/2' />
-            </a>
-        </button>
-        )
-    }
+            showButton && (
+                <button 
+                    className="w-50 h-50 bg-[#0C96E2] rounded-2xl fixed bottom-5 right-10 z-50 flex items-center justify-center shadow-lg transition-transform duration-300 hover:scale-110 animate-[bounce_4s_ease-in-out_infinite]" 
+                    onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
+                >
+                    <img src="/images/Arrow_Up_MD.png" alt="Up" className="w-20 h-20" />
+                </button>
+            )
+        }
   
     </>
    
